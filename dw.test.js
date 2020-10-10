@@ -3,7 +3,7 @@ const DogWalker = require('./DogWalker');
 
 test("Test uno", () =>{
     let dw = new DogWalker();
-    let expected = dw.numberOfWalksCalculator([1, 1, 3, 1, 2, 1, 3, 3, 3, 3]);
+    let expected = dw.numberOfWalksCalculator([1, 1, 3, 1, 2, 1, 3, 3, 3, 3]);  // 1 => 4, 3 => 5, 2 => 1
     let actual = 6;
     expect(expected).toEqual(actual);
 });
